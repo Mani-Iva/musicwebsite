@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+nav ul 
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+}
+nav ul li
+{
+ list-style-type: none;
+ cursor: pointer;
+}
+nav ul li:hover
+{
+    color: rgb(211, 71, 71);
+}
+li button
+{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.first
+{
+background-color: rgb(243, 240, 240);
+margin-left: 100px;
+margin-top: 50px;
+}
+.first h1{
+    font-size: 85px;
+
+}
+.subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subdiv-1 ul li,.subdiv-2 ul li,.subdiv-3 ul li,.subdiv-4 ul li
+{
+    list-style-type: none;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.imge
+{
+   padding: 100px;
+
+}
+.main-2{
+    display: flex;
+   
+} 
+.div-21,.div-22,.div-23,.div-24{
+
+    padding: 35px;
+    border-radius: 30%;
+}
+.imge{
+    padding-left: 9%;
+}
+.btn
+{
+    background-color: lightgray;
+    color: rgb(3, 3, 3);
+    padding: 13px;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-left: 600px;
+    
+
+}
+p{
+    text-align: center;
+    font-size: x-large;
+}
+.third-main-1
+{
+    display: flex;
+    justify-content: space-between;
+    width:10% ;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+}
+.third-main-2{
+    display: flex;
+    justify-content: space-between;
+    width:10% ;
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+} 
+   
+
